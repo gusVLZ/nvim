@@ -1131,7 +1131,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:cargo/cairo-language-server@2.5.1"
+      "id": "pkg:cargo/cairo-language-server@2.5.2"
     },
     "bin": {
       "cairo-language-server": "cargo:cairo-language-server"
@@ -2356,7 +2356,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/detekt/detekt@v1.23.4",
+      "id": "pkg:github/detekt/detekt@v1.23.5",
       "asset": [
         {
           "target": "unix",
@@ -3558,7 +3558,7 @@
     "languages": [],
     "categories": [],
     "source": {
-      "id": "pkg:github/cli/cli@v2.42.1",
+      "id": "pkg:github/cli/cli@v2.43.0",
       "asset": [
         {
           "target": "darwin_x64",
@@ -6575,7 +6575,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/nim-lang/langserver@b6c640aadf1d9655aee3a91f18c56d148397c0d8",
+      "id": "pkg:github/nim-lang/langserver@9c86ff893f65cf88bf8ee526fef2887fe34e1350",
       "build": [
         {
           "target": "unix",
@@ -9480,6 +9480,7 @@
     "languages": [
       "C",
       "C++",
+      "C#",
       "CloudFormation",
       "CSS",
       "Docker",
@@ -9501,9 +9502,9 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:github/SonarSource/sonarlint-vscode@4.2.2%2B75910",
+      "id": "pkg:github/SonarSource/sonarlint-vscode@4.3.0%2B76012",
       "asset": {
-        "file": "sonarlint-vscode-4.2.2.vsix"
+        "file": "sonarlint-vscode-4.3.0.vsix"
       }
     },
     "bin": {
@@ -10502,7 +10503,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/joyme123/thrift-ls@v0.1.5",
+      "id": "pkg:github/joyme123/thrift-ls@v0.1.7",
       "asset": [
         {
           "target": "darwin_x64",

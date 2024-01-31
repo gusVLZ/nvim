@@ -1,1 +1,0 @@
-{"primary_source":{"id":"pkg:npm\/%40angular\/language-server@17.1.0","type":"registry+v1"},"metrics":{"start_time":1706711468903,"completion_time":1706711477264},"links":{"share":{},"bin":{"ngserver.cmd":"node_modules\\.bin\\ngserver.cmd"},"opt":{}},"name":"angular-language-server","secondary_sources":[],"schema_version":"1.1"}
