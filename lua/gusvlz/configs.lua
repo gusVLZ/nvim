@@ -3,7 +3,7 @@ vim.o.hlsearch = false
 
 -- Make line numbers default
 vim.wo.number = true
-vim.wo.relativenumber = false               
+vim.wo.relativenumber = true
 
 -- Set top and bottom padding
 vim.wo.scrolloff = 10

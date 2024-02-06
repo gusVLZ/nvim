@@ -75,7 +75,18 @@ keymap("n", "ç", "$", opts)
 keymap("n", "Ç", "^", opts)
 keymap("v", "ç", "$", opts)
 keymap("v", "Ç", "^", opts)
+keymap("n", "<C-s>", ":w<CR>", opts)
+keymap("v", "<C-s>", ":w<CR>", opts)
+keymap("i", "<C-s>", "<Esc>:w<CR>a", opts)
+keymap("n", "<C-x>", ":bd<CR>", opts)
 
-keymap("n", "<C-j>", "o<Esc>", opts)
-keymap("n", "<C-k>", "O<Esc>", opts)
+--Git
+keymap("n", "<leader>gc", ':Git add . | :Git commit -m "feat:"<Left>', opts)
 
+--Telescope
+keymap("n", "<leader>p", ":Telescope find_files<CR>", opts)
+keymap("n", "<leader>f", ":Telescope live_grep<CR>", opts)
+keymap("n", "<leader>g", ":Telescope lsp_document_symbols<CR>", opts)
+keymap("n", "<leader><Tab>", ":Telescope buffers<CR>", opts)
+keymap("n", "<leader>r", ":Telescope oldfiles<CR>", opts)
+keymap("n", "<leader>fh", ":Telescope help_tags<CR>", opts)
