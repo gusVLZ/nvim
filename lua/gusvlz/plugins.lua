@@ -205,5 +205,7 @@ require('lazy').setup({
     },
 
     --projects
-    "ahmedkhalf/project.nvim"
+    "ahmedkhalf/project.nvim",
+
+    {"m4xshen/autoclose.nvim", opts = {}}
 })
