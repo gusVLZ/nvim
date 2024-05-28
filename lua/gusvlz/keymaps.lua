@@ -79,6 +79,7 @@ keymap("n", "<C-s>", ":w<CR>", opts)
 keymap("v", "<C-s>", ":w<CR>", opts)
 keymap("i", "<C-s>", "<Esc>:w<CR>a", opts)
 keymap("n", "<C-x>", ":bd<CR>", opts)
+vim.cmd('ca w!! w !sudo tee "%"')
 
 --Git
 keymap("n", "<leader>gc", ':Git add . | :Git commit -m "feat:"<Left>', opts)

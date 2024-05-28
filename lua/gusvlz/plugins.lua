@@ -1,4 +1,5 @@
 require('lazy').setup({
+    'lambdalisue/suda.vim',
     --treeview of files
     { 'nvim-tree/nvim-tree.lua', opts = {} },
 
